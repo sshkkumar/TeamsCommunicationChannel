@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.2",
+  "packageName": "com.dw.teamschannel",
+  "id": "03d9046a-73de-426d-81a0-03894cf00126",
+  "version": "1.0.0",
+  "developer": {
+    "name": "DW Dev",
+    "websiteUrl": "https://products.contoso.com/en-us/sharepoint/collaboration",
+    "privacyUrl": "https://privacy.contoso.com/en-us/privacystatement",
+    "termsOfUseUrl": "https://www.contoso.com/en-us/servicesagreement"
+  },
+  "name": {
+    "short": "DWTeamsCommChannel"
+  },
+  "description": {
+    "short": "SpFx based teams tab",
+    "full": "SpFx based Teams tab"
+  },
+  "icons": {
+    "outline": "tab20x20.png",
+    "color": "tab96x96.png"
+  },
+  "accentColor": "#004578",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=03d9046a-73de-426d-81a0-03894cf00126",
+      "canUpdateConfiguration": false,
+      "scopes": ["team"]
+    }
+  ],
+  "validDomains": ["m365x846523.sharepoint.com", "*.blob.core.windows.net"]
+}

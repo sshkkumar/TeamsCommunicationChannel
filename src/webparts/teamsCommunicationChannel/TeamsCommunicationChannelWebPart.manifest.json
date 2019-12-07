@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "03d9046a-73de-426d-81a0-03894cf00126",
+  "alias": "DWTeamsCommChannel",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsTab"],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "DWTeamsCommunicationChannel" },
+      "description": {
+        "default": "SpFx based webpart for DWA Teams Communication Channel"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "TeamsCommunicationChannel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "teams-communication-channel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamsCommunicationChannel/TeamsCommunicationChannelWebPart.js",
+          "manifest": "./src/webparts/teamsCommunicationChannel/TeamsCommunicationChannelWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "TeamsCommunicationChannelWebPartStrings": "lib/webparts/teamsCommunicationChannel/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
