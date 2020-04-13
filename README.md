@@ -1,2 +1,2 @@
-This project shows you how to create a SpFx form using Final Form library.
-This will also demonstrate how you can use SpFx's  People picker and Dropzone to upload a file.
+This project shows you how to create a SpFx form
+This will also demonstrate how you can use SpFx's  People picker and file upload control to upload a file to a SharePoint site.
